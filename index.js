@@ -14,4 +14,4 @@ mongoose.connect('mongodb://vmanager:tecCEM@54.173.202.133:27017/testdb?authSour
 // Routes
 app.use('/api',router);
 const port = process.env.PORT
-app.listen(port, () => console.log(`server on in port:${port}`));
+app.listen(port, () => console.log(`🌎 Beautiful destinations is running on PORT:${port} 🌎`));
